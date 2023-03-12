@@ -1,4 +1,56 @@
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: rgb(252, 241, 228);
+    font-family: 'Amaranth', sans-serif;
+}
 
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-4 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(78, 46, 19);
+    background: rgb(255, 223, 228);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    color: #ffffff;
+    background-color: #3d0e22;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin: 20px;
+  }
+  button:hover {
+    background-color: #d1789a;
+    color: #1d1d1d;
+  }
 /* 
 
     You can write your own styles here...
