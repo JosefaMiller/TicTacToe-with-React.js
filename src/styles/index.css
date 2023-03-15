@@ -1,55 +1,54 @@
 body {
     margin: 0;
-    font-family: var(--bs-body-font-family);
-    font-size: var(--bs-body-font-size);
-    font-weight: var(--bs-body-font-weight);
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    font-family: 'Amaranth', sans-serif;
+    background-color: #000000;
+}
+.ticTacToe {
+    width: 100vw;
+    height: 100wh;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
-    background-color: rgb(252, 241, 228);
+    align-items: center;
     font-family: 'Amaranth', sans-serif;
+    flex-direction: column;
 }
 
 h1 {
     font-size: 50px;
     display: flex;
     justify-content: center;
+    color: beige;
 }
 
-.col-4 {
-    height: 150px;
-    width: 150px;
-    border: 1px solid rgb(78, 46, 19);
-    background: rgb(255, 223, 228);
-    font-size: 40px;
+  .board {
+    width: 500px;
+    height: 500px;
+    background-color: #ce8aa4;
+    border: 1px solid black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.buttons{
-    display: flex;
-    justify-content: center;
-}
-
-button {
-    height: 40px;
-    width: 100px;
-    color: #ffffff;
-    background-color: #3d0e22;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin: 20px;
+    flex-direction: column;
   }
-  button:hover {
-    background-color: #d1789a;
-    color: #1d1d1d;
+
+  .row {
+    flex: 33%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .square {
+    flex: 33%;
+    height: 100%;
+    border: 1px solid black;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    font-size: 50px;
+    color: #000000;
+    font-family: 'Amaranth', sans-serif;
+  }
+  .square:active {
+    background-color: #6b3147;
   }
 /* 
 
